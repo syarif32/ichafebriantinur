@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Logo satu warna Icha Febrianti Nur">
+  <defs>
+    <!-- Mode monokrom navy; ubah nilai fill/stroke untuk versi putih -->
+  </defs>
+  <g id="ifn-monochrome" fill="#0F4C5C" stroke="#0F4C5C">
+    <!-- Lingkaran terbuka -->
+    <path d="M250 80 A120 120 0 1 0 272 202" fill="none" stroke-width="13" stroke-linecap="round"/>
+    <!-- Matahari -->
+    <circle cx="123" cy="135" r="17" stroke="none"/>
+    <!-- Grafik -->
+    <rect x="100" y="194" width="25" height="44" rx="7" stroke="none"/>
+    <rect x="140" y="171" width="25" height="67" rx="7" stroke="none"/>
+    <rect x="180" y="150" width="25" height="88" rx="7" stroke="none"/>
+    <!-- Tunas dan sayap -->
+    <path d="M192 153 C199 137 208 125 222 114" fill="none" stroke-width="10" stroke-linecap="round"/>
+    <path d="M225 116 C197 111 189 99 191 83 C210 86 222 98 225 116 Z" stroke="none"/>
+    <path d="M220 118 C216 86 237 74 266 71 C264 94 247 113 220 118 Z" stroke="none"/>
+  </g>
+</svg>
