@@ -16,24 +16,24 @@ export const portfolio = {
   site: {
     name: "Icha Ferianti Nur — Portofolio",
     // Isi domain sesudah deploy agar canonical & metadataBase memakai domain Anda.
-    url: "",
+    url: "https://ichafebriantinur.vercel.app/",
     description: text(
-      "Portofolio Icha Ferianti Nur, mahasiswa Akuntansi Syariah UIN Walisongo Semarang.",
-      "Portfolio of Icha Ferianti Nur, a Sharia Accounting student at UIN Walisongo Semarang.",
+      "Portofolio Icha Ferianti Nur, mahasiswa Akuntansi  UIN Walisongo Semarang.",
+      "Portfolio of Icha Ferianti Nur, a  Accounting student at UIN Walisongo Semarang.",
     ),
     defaultLocale: "id" as Locale,
   },
   profile: {
     name: "Icha Ferianti Nur",
     initials: "IFN",
-    role: text("Mahasiswi Akuntansi Syariah", "Sharia Accounting Student"),
+    role: text("Mahasiswi Akuntansi ", " Accounting Student"),
     university: "UIN Walisongo Semarang",
-    degree: text("Sarjana Akuntansi Syariah", "Bachelor of Sharia Accounting"),
+    degree: text("Sarjana Akuntansi ", "Bachelor of  Accounting"),
     location: "Kota Semarang, Jawa Tengah",
-    photo: "/images/profile-example.webp",
+    photo: "/images/febbyy.svg",
     photoAlt: text(
-      "Foto profil contoh pada portofolio",
-      "Sample profile photo used in the portfolio",
+      "Logo Icha Febrianti Nur",
+      "Icha Febrianti Nur logo",
     ),
     email: "ichafebriantinur@gmail.com",
     availability: text(
@@ -41,17 +41,17 @@ export const portfolio = {
       "Open to internship opportunities",
     ),
     intro: text(
-      "Mahasiswi Akuntansi Syariah yang tertarik berkontribusi dalam pengelolaan data ekonomi daerah dan pelaporan keuangan instansi pemerintah.",
-      "A Sharia Accounting student interested in contributing to regional economic data management and financial reporting for government institutions.",
+      "Mahasiswi Akuntansi  yang tertarik berkontribusi dalam pengelolaan data ekonomi daerah dan pelaporan keuangan instansi pemerintah.",
+      "A  Accounting student interested in contributing to regional economic data management and financial reporting for government institutions.",
     ),
     summary: text(
-      "Saya mahasiswi Akuntansi Syariah yang memiliki pengalaman mengembangkan dan menerapkan strategi kreatif. Saya memiliki kemampuan komunikasi, pemecahan masalah, dan manajemen waktu, serta aktif dalam organisasi yang mendukung pengembangan diri. Saya siap berkontribusi dalam kegiatan pemagangan dengan pemahaman ilmu yang relevan untuk mendukung pengelolaan data ekonomi daerah dan pelaporan keuangan instansi pemerintah.",
-      "I am a Sharia Accounting student with experience developing and implementing creative strategies. I bring communication, problem-solving, and time-management skills, and actively participate in organizations that support personal development. I am ready to contribute to an internship by applying relevant knowledge to regional economic data management and government financial reporting.",
+      "Saya mahasiswi Akuntansi  yang memiliki pengalaman mengembangkan dan menerapkan strategi kreatif. Saya memiliki kemampuan komunikasi, pemecahan masalah, dan manajemen waktu, serta aktif dalam organisasi yang mendukung pengembangan diri. Saya siap berkontribusi dalam kegiatan pemagangan dengan pemahaman ilmu yang relevan untuk mendukung pengelolaan data ekonomi daerah dan pelaporan keuangan instansi pemerintah.",
+      "I am a  Accounting student with experience developing and implementing creative strategies. I bring communication, problem-solving, and time-management skills, and actively participate in organizations that support personal development. I am ready to contribute to an internship by applying relevant knowledge to regional economic data management and government financial reporting.",
     ),
     about: [
       text(
-        "Saya menempuh studi Akuntansi Syariah di UIN Walisongo Semarang sejak 2023. Mata kuliah yang relevan dengan minat saya meliputi Akuntansi Sektor Publik, Sistem Informasi Akuntansi, dan Analisis Laporan Keuangan.",
-        "I have studied Sharia Accounting at UIN Walisongo Semarang since 2023. Relevant coursework includes Public Sector Accounting, Accounting Information Systems, and Financial Statement Analysis.",
+        "Saya menempuh studi Akuntansi  di UIN Walisongo Semarang sejak 2023. Mata kuliah yang relevan dengan minat saya meliputi Akuntansi Sektor Publik, Sistem Informasi Akuntansi, dan Analisis Laporan Keuangan.",
+        "I have studied  Accounting at UIN Walisongo Semarang since 2023. Relevant coursework includes Public Sector Accounting, Accounting Information Systems, and Financial Statement Analysis.",
       ),
       text(
         "Pengalaman organisasi dan proyek akademik membantu saya mengembangkan komunikasi, pemecahan masalah, manajemen waktu, serta pemahaman tentang pengelolaan inventaris dan analisis laporan keuangan.",
@@ -77,12 +77,12 @@ export const portfolio = {
       id: "university",
       institution: "UIN Walisongo Semarang",
       qualification: text(
-        "Sarjana Akuntansi Syariah",
-        "Bachelor of Sharia Accounting",
+        "Sarjana Akuntansi ",
+        "Bachelor of Accounting",
       ),
       period: text("2023 — sekarang", "2023 — present"),
       detail: text("Mahasiswi aktif", "Current student"),
-      gpa: "3.60",
+      gpa: "3.79",
       gpaMax: "4.00",
       showGpa: true,
       courses: [

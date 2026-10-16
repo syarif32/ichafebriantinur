@@ -441,10 +441,10 @@ main:focus {
 }
 .hero-portrait img {
   aspect-ratio: 4/4.5;
-  object-fit: cover;
+  object-fit: contain;
   object-position: 50% 35%;
   width: 100%;
-  filter: saturate(0.7);
+  filter: none;
 }
 .hero-portrait figcaption {
   min-height: 65px;
@@ -769,8 +769,8 @@ main:focus {
 }
 .about-photo img {
   aspect-ratio: 4/5;
-  object-fit: cover;
-  filter: saturate(0.7);
+  object-fit: contain;
+  filter: none;
 }
 .about-copy h2 {
   margin-top: 12px;
