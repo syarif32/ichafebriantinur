@@ -87,11 +87,19 @@ export function HomePage({ locale }: { locale: Locale }) {
           </div>
         </div>
         <figure className="hero-portrait">
-          <Image
+          <Image className="profile-logo-light"
             src={p.profile.photo}
             alt={l(p.profile.photoAlt, locale)}
-            width={1122}
-            height={1402}
+            width={640}
+            height={660}
+            sizes="(max-width: 720px) 90vw, 40vw"
+            priority
+          />
+          <Image className="profile-logo-dark"
+            src={p.profile.photoDark}
+            alt={l(p.profile.photoAlt, locale)}
+            width={640}
+            height={660}
             sizes="(max-width: 720px) 90vw, 40vw"
             priority
           />
@@ -166,11 +174,18 @@ export function AboutPage({ locale }: { locale: Locale }) {
       />
       <section className="about-overview">
         <div className="about-photo">
-          <Image
+          <Image className="profile-logo-light"
             src={p.profile.photo}
             alt={l(p.profile.photoAlt, locale)}
-            width={1122}
-            height={1402}
+            width={640}
+            height={660}
+            sizes="(max-width: 720px) 90vw, 30vw"
+          />
+          <Image className="profile-logo-dark"
+            src={p.profile.photoDark}
+            alt={l(p.profile.photoAlt, locale)}
+            width={640}
+            height={660}
             sizes="(max-width: 720px) 90vw, 30vw"
           />
         </div>

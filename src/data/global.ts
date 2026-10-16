@@ -31,6 +31,7 @@ export const portfolio = {
     degree: text("Sarjana Akuntansi ", "Bachelor of  Accounting"),
     location: "Kota Semarang, Jawa Tengah",
     photo: "/images/febbyy.svg",
+    photoDark: "/images/febbyy-dark.svg",
     photoAlt: text(
       "Logo Icha Febrianti Nur",
       "Icha Febrianti Nur logo",

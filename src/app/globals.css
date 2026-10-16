@@ -2005,3 +2005,14 @@ main:focus {
     break-inside: avoid;
   }
 }
+
+/* Follow the resolved theme, including the system preference. */
+.profile-logo-dark {
+  display: none;
+}
+[data-theme="dark"] .profile-logo-light {
+  display: none;
+}
+[data-theme="dark"] .profile-logo-dark {
+  display: block;
+}
